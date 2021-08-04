@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    overflow: hidden;
+    background-color: #CECECC;
+}
+#left{
+    width: 70%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #fff;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    /* background-color: #8f3f3f; */
+}
+
+#top h2{
+    margin-top: 40px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: "Product Sans";
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 900;
+}
+#image1{
+    width: 500px;
+    height: 100%;
+    background-image: url(/top.jfif);
+    background-position:bottom;
+    background-size:cover;
+}
+
+#center{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #727272; */
+}
+
+#cenone{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+    padding: 30px 80px;
+}
+
+#cenone h6{
+    font-weight: 500;
+    opacity: 0.6;
+    font-family: "Roboto";
+    color: rgb(80, 79, 79);
+    letter-spacing: 3px;
+
+}
+
+#cenone h1{
+    font-weight: 900;
+    font-family: "Roboto";
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#cenone h5{
+    font-family: "Roboto";
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(109, 103, 103, 0.829);
+    line-height: 19px;
+}
+
+#cenone h4{
+    font-size: 18px;
+    font-family:"Roboto";
+    margin-top: 65px;
+    opacity: 0.3;
+    color: rgb(80, 79, 79);
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+
+#image2{
+    width: 30%;
+    height: 100%;
+    background-image: url(/bottom.jfif);
+    background-position:bottom;
+    background-size:cover;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+}
+
+#bottom a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto";
+    opacity: 0.3;
+    font-weight: 700;
+    margin-left: 30px;
+    color: rgb(80, 79, 79);
+
+}
+
+#bottom a:nth-child(1){
+    margin-left: 0px;
+}
+
+#bottom i{
+    font-size: 35px;
+    opacity: 0.3;
+    /* font-weight: 700; */
+    margin-left: 75px;
+    color: rgb(80, 79, 79);
+
+}
+
+#right{
+    width: 30%;
+    height: 100%;
+    background-image: url(/main.jfif);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-position: center;
+    background-size: cover;
+}
+
+#right i{
+    position: absolute;
+    left: 95%;
+    top: 6%;
+    font-size: 35px;
+    color: black;
+}
